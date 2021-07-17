@@ -1,0 +1,43 @@
+<h1> Update Employee Information</h1>
+
+<form action="updateEmp" method="POST">
+<table border="1" cellspacing="10">
+
+ <tr>
+     <td>Id</td>
+     <td><input type="text" name="id" value="{{emp.0}}" readonly></td>
+ </tr>
+
+ <tr>
+     <td>Name</td>
+     <td><input type="text" name="name" value="{{emp.1}}"></td>
+ </tr>
+
+ <tr>
+     <td>Email</td>
+     <td><input type="email" name="email" value="{{emp.2}}"></td>
+ </tr>
+
+ <tr>
+     <td>Password</td>
+     <td><input type="password" name="password" value="{{emp.3}}"></td>
+ </tr>
+
+ <tr>
+     <td>Contact</td>
+     <td><input type="text" name="cont" value="{{emp.4}}"></td>
+ </tr>
+
+ <tr>
+     <td>Department</td>
+     <td><input type="text" name="dept" value="{{emp.5}}"></td>
+ </tr>
+
+ <tr>
+     <td><input type="submit" value="Update"></td>
+     <td><input type="reset" value="Reset"></td>
+ </tr>
+</table>
+</form>
+
+<h2><a href="/">Home</a></h2>
